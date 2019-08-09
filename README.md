@@ -1,0 +1,1 @@
+This is the risperatory for the first alpha-blog of the complete ruby on Rails Developer course
