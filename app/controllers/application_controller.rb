@@ -9,7 +9,6 @@ class ApplicationController < ActionController::Base
 
   def logged_in?
     !!current_user
-    #comment
   end
 
   def require_user
