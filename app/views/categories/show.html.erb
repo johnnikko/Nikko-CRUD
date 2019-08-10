@@ -1,0 +1,5 @@
+<h1 align="center"><%= "Category: " + @category.name %></h1>
+<%= render 'articles/article', data: @category_articles %>
+<div class="pull-right">
+  <%= will_paginate @category_articles %>
+</div>
